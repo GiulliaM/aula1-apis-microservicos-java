@@ -1,4 +1,4 @@
-package Bloco1;
+package Bloco1.Exerc2;
 
 import java.util.Scanner;
 

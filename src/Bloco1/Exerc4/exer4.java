@@ -1,4 +1,4 @@
-package Bloco1;
+package Bloco1.Exerc4;
 
 public class exer4 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Bloco1;
+package Bloco1.Exerc3;
 
 import java.util.Scanner;
 import java.util.Random;
