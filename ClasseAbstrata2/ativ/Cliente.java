@@ -12,7 +12,7 @@ public class Cliente extends Pessoa {
 		this.codigo = codigo;
 	}
 
-
+	@Override
 	void imprimeDados() {
 		System.out.println("Codigo: %d".formatted(this.getCodigo()));
 		System.out.println("Nome: %s".formatted(this.getNome()));
