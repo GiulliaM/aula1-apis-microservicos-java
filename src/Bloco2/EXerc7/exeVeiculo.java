@@ -1,6 +1,4 @@
-package Bloco2;
-
-import java.util.Scanner;
+package Bloco2.EXerc7;
 
 public class exeVeiculo {
 	public static void main(String[] args) {

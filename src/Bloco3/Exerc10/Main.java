@@ -1,4 +1,4 @@
-package Bloco3.Exerc2;
+package Bloco3.Exerc10;
 
 import java.util.ArrayList;
 import java.util.Random;

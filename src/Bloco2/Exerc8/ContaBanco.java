@@ -1,4 +1,4 @@
-package Bloco2;
+package Bloco2.Exerc8;
 
 public class ContaBanco {
 	public static void main(String[] args) {

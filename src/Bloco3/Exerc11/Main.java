@@ -1,4 +1,4 @@
-package Bloco3.Exerc3;
+package Bloco3.Exerc11;
 
 import java.util.LinkedList;
 import java.util.Scanner;

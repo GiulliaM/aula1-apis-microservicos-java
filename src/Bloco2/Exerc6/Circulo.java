@@ -1,4 +1,4 @@
-package Bloco2;
+package Bloco2.EXerc6;
 
 import java.util.Scanner;
 

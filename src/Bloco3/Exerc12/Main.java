@@ -1,4 +1,4 @@
-package Bloco3.Exerc4;
+package Bloco3.Exerc12;
 
 import java.util.ArrayList;
 import java.util.Scanner;
