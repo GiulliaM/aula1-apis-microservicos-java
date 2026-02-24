@@ -10,7 +10,7 @@ public class Gerente extends Funcionario {
 	public void setArea(String area) {
 		this.area = area;
 	}
-
+	@Override
 	void imprimeDados() {
 		super.imprimeDados();
 		//chamando o metodo na claasse pai (funcionario)
