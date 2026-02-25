@@ -9,7 +9,7 @@ public class Funcionario extends Pessoa {
 	public void setSalario(float salario) {
 		this.salario = salario;
 	}
-
+	@Override
 	void imprimeDados() {
 		System.out.println("Nome: %s".formatted(this.getNome()));
 		System.out.println("Salario: %.2f".formatted(this.getSalario()));
