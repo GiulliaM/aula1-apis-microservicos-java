@@ -1,6 +1,6 @@
 package model.produto;
 
-public class RendaFixa implements ProdutoInvestimento {
+public class RendaFixa extends ProdutoInvestimento{
 
     private String nome;
     private String descricao;
@@ -8,8 +8,7 @@ public class RendaFixa implements ProdutoInvestimento {
     private int periodoCarenciaDias;
 
     public RendaFixa(String nome, String descricao, double rendimentoMensalFixo, int periodoCarenciaDias){
-        this.nome = nome;
-        this.descricao = descricao;
+        super(nome, descricao);
         this.rendimentoMensalFixo = rendimentoMensalFixo;
         this.periodoCarenciaDias = periodoCarenciaDias;
     }

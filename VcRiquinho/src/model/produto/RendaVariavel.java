@@ -1,13 +1,12 @@
 package model.produto;
 
-public class RendaVariavel implements ProdutoInvestimento {
+public class RendaVariavel extends ProdutoInvestimento {
     private String nome;
     private String descricao;
     private double rendimentoMensalEsperado;
 
     public RendaVariavel(String nome, String descricao, double rendimentoMensalEsperado){
-        this.nome = nome;
-        this.descricao = descricao;
+        super(nome, descricao);
         this.rendimentoMensalEsperado = rendimentoMensalEsperado;
     }
 

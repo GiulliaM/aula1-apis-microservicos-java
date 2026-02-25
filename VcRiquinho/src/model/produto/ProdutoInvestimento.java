@@ -1,17 +1,27 @@
 package model.produto;
 
-public interface ProdutoInvestimento {
+public abstract class ProdutoInvestimento implements Rentavel{
+    private String nome;
+    private String descricao;
 
-    // Apenas assinaturas! Sem variáveis, sem construtor e sem corpo { }.
-    // O Java já entende implicitamente que eles são "public abstract".
+    public ProdutoInvestimento(String nome, String descricao){
+        this.nome = nome;
+        this.descricao = descricao;
+    }
 
-    String getNome();
+    public String getNome() {
+        return nome;
+    }
 
-    String getDescricao();
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
-    void setNome(String nome);
+    public String getDescricao() {
+        return descricao;
+    }
 
-    void setDescricao(String descricao);
-
-    double calcularRendimento(double valorAplicado, int dias);
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
 }
